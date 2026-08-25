@@ -40,6 +40,11 @@ spring:
               filters:
                 - AuthenticationFilter
 
+            - id: media-upload-service
+              uri: lb://media-service
+              predicates:
+                - Path=/api/v1/media/upload/**, /api/v1/media/upload
+
             - id: media-service
               uri: lb://media-service
               predicates:
