@@ -12,7 +12,7 @@ findora:
     type: gcs
     local-dir: ./uploads
     local-url-prefix: http://localhost:8083/uploads/
-    bucket-name: findora-media-bucket-ch974
+    bucket-name: findora-media-bucket-974ch
 
 eureka:
   client:

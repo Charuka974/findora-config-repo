@@ -6,7 +6,7 @@ spring:
     name: item-service
   data:
     mongodb:
-      uri: mongodb://localhost:27017/findora_item_db
+      uri: mongodb://root:9tp1wAMGaokrxUgQAhwtKkP2-0AlhJvHpycy1R3BW6qt0F7z@f0bb6700-5301-4128-bf4b-c17cd5586caa.asia-southeast1.firestore.goog:443/findora-item-db-974ch?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
 
 eureka:
   client:
@@ -20,3 +20,4 @@ management:
     web:
       exposure:
         include: health,info
+
