@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://34.21.191.131:5432/findora_users?sslmode=require
+    url: jdbc:postgresql://34.87.107.228:5432/findora_users?sslmode=require
     username: postgres
     password: Charuka@974
     driver-class-name: org.postgresql.Driver
