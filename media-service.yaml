@@ -17,7 +17,7 @@ findora:
 eureka:
   client:
     service-url:
-      defaultZone: http://10.160.0.4:8761/eureka/
+      defaultZone: http://10.160.0.11:8761/eureka/
   instance:
     prefer-ip-address: true
 
